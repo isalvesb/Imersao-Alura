@@ -1,6 +1,8 @@
 /* HEADER */
 
 .main-container {
+    position: fixed;
+    top: 0;
     max-width: 80vw;
     height: 100vh;
     margin-left: 320px;
@@ -64,8 +66,8 @@
 }
 
 .header__search input {
-    background: transparent;
-    border: none;
+    background: #cc9fc2;
+    border: 1px solid snow;
     padding: 0px 100px 0 12px;
     color: #fff;
     text-overflow: ellipsis;

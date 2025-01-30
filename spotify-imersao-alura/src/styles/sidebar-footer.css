@@ -14,7 +14,7 @@ body {
 }
 
 .sidebar__navigation {
-    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    background-color: #cc9fc2;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .library {
-    background-image: linear-gradient(to top, #ffd1ff 0%, #fad0c4 100%);
+    background-color: #cc9fc2;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -97,7 +97,7 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    background-color: #e2c0d2;
     color: #FAF9F6;
     font-weight: 600;
     font-size: 14px;
@@ -128,7 +128,7 @@ body {
 .section-playlist__content .section-playlist__button {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     color: #FAF9F6;
     border-radius: 20px;
     font-size: 12px;
@@ -142,7 +142,7 @@ body {
 }
 
 .sidebar .cookies {
-    margin: 25px 20px;
+    margin: 20px 25px;
 
 }
 
@@ -158,14 +158,14 @@ body {
 }
 
 .languages .languages__button {
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    align-items: center;
+    background-color: transparent;
     border: 1px solid snow;
     color: #FAF9F6;
-    cursor: pointer;
-    align-items: center;
     font-weight: bold;
+    cursor: pointer;
     width: 170px;
-    margin: 10px;
+    margin: 8px;
     padding: 8px;
     border-radius: 20px;
 }
@@ -179,6 +179,7 @@ body {
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
+    height: 35px;
 }
 
 .disclaimer-premium .text {
@@ -202,9 +203,11 @@ body {
 .disclaimer-premium button {
     background-color: #FAF9F6;
     color: #a18cd1;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
-    padding: 14px 30px;
-    border-radius: 25px;
-    border: #FAF9F6, solid 1px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
