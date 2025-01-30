@@ -13,10 +13,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 15px;
     margin: 10px;
     border-radius: 8px;
-    background-color: transparent;
+    background-color: #cc9fc2;
 }
 
 .header__navigation .navigation {
@@ -26,7 +26,7 @@
 }
 
 .header__navigation .navigation .arrow-left {
-    margin-right: 1.25rem;
+    margin-right: 0.75rem;
 }
 
 .arrow-left,
@@ -37,10 +37,10 @@
     width: 32px;
     height: 32px;
     background: var(--bg-icon);
-    background-color: var(--bg-arrow-color);
     border-radius: 50%;
     border: none;
     cursor: pointer;
+    color: #faf9f6;
 }
 
 .header__login {
@@ -54,41 +54,51 @@
     width: 364px;
     height: 48px;
     margin-left: 8px;
-    background-color: #242424;
-    border-radius: 500px;
-    border: 1px solid transparent;
+    background: var(--bg-icon);
+    border-radius: 40px;
+    border: none;
 }
 
 .header__search img {
-    width: 16px;
-    height: 16px;
-    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    color: #faf9f6;
 }
 
 .header__search input {
-    background: #cc9fc2;
-    border: 1px solid snow;
+    background-color: transparent;
+    border: none;
     padding: 0px 100px 0 12px;
-    color: #fff;
+    color: #faf9f6;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     outline: none;
 }
 
+.header__search input::placeholder {
+    color: #faf9f6;
+}
+
 .header__login .subscribe {
-    color: #a7a7a7;
+    color: #faf9f6;
     font-size: 16px;
     font-weight: 700;
-    background-color: transparent;
     margin-right: 32px;
+    margin-left: 15px;
+    background-color: transparent;
+    border: none;
 }
 
 .header__login .login {
-    width: 100px;
-    height: 100px;
-    color: #000;
-    font-size: 16px;
-    font-weight: 700;
+    width: 80px;
+    height: 40px;
+    background-color: #faf9f6;
+    font-size: 12px;
+    font-weight: bold;
+    color: #a18cd1;
     border-radius: 40px;
+    border: none;
+    padding: 10px 20px;
 }

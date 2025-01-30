@@ -175,7 +175,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: linear-gradient(to left, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to bottom, #5ee7df 0%, #b490ca 100%);
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
