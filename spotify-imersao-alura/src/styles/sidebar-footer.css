@@ -14,7 +14,7 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #9085bc;
+    background-color: #a18cd1;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .library {
-    background-color: #9085bc;
+    background-color: #a18cd1;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -97,7 +97,7 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #e2c0d2;
+    background-color: #b490ca;
     color: #FAF9F6;
     font-weight: 600;
     font-size: 14px;
