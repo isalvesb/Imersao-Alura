@@ -53,14 +53,14 @@
   height: 48px;
   margin-left: 8px;
   background: var(--bg-icon);
-  border-radius: 40px;
-  border: none;
+  border-radius: 500px;
+  border: 1px solid transparent;
 }
 
 .header__search img {
-  width: 20px;
-  height: 20px;
-  margin-left: 15px;
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
   color: #faf9f6;
 }
 
@@ -90,16 +90,35 @@
 }
 
 .header__login .login {
-  width: 80px;
-  height: 40px;
+  width: 100px;
+  height: 48px;
   background-color: #faf9f6;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
   color: #a18cd1;
   border-radius: 40px;
   border: none;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
 }
+
+.header__search:hover {
+  border: 1px solid #faf9f6;
+}
+
+.header__login .subscribe:hover {
+  transform: scale(1.04);
+  color: #a18cd1;
+  cursor: pointer;
+}
+
+.header__login .login:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+/* FIM HOVER */
+
+/* FIM HEADER */
 
 /* PLAYLIST */
 .playlist-container {
