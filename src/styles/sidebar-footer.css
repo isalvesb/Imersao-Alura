@@ -142,8 +142,8 @@ body {
 }
 
 .section-playlist__content .section-playlist__button:hover {
-    background: #faf9f6;
-    color: #b490ca;
+  background: #faf9f6;
+  color: #b490ca;
 }
 
 .sidebar .cookies {
@@ -217,6 +217,6 @@ body {
 }
 
 .disclaimer-premium button:hover {
-    transform: scale(1.04);
-    cursor: pointer;
+  transform: scale(1.04);
+  cursor: pointer;
 }
