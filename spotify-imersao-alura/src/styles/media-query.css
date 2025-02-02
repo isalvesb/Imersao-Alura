@@ -2,7 +2,7 @@
   .header__search {
     /* display: none !important; */
     width: auto !important;
-    display: none;
+    /* display: none; */
   }
 
   /* .header__login .subscribe {

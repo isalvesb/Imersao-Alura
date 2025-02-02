@@ -10,8 +10,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 16px;
   margin: 10px;
+  padding: 12px;
   border-radius: 8px;
   background-color: transparent;
 }
@@ -121,12 +122,12 @@
   font-weight: bold;
   margin-bottom: 48px;
 }
-
+ 
 .playlist .greeting-subtitle {
   color: #faf9f6;
   font-size: 24px;
   font-weight: bold;
-}
+} */
 
 .playlist .session {
   color: #faf9f6;
@@ -139,6 +140,10 @@
   max-height: 43vh;
   margin: 24px;
   overflow-y: auto;
+}
+
+.offer__scroll-container::-webkit-scrollbar {
+  width: 1px;
 }
 
 .offer__scroll-container::-webkit-scrollbar-thumb {
@@ -154,10 +159,12 @@
   grid-gap: 16px;
   gap: 16px;
   margin-bottom: 16px;
+
   /* CÓDIGO COM JS CALCULANDO OS CARDS POR COLUNA */
   display: grid;
   gap: 16px;
-  grid-gap: 32px margin 0 auto;
+  grid-gap: 32px 
+  margin: 0 auto;
 }
 
 .cards {
@@ -268,19 +275,19 @@
 }
 
 .artist-card {
-  background: #181818;
+  background: #a18cd1;
   border-radius: 8px;
   -ms-flex: 1;
   flex: 1;
   isolation: isolate;
   padding: 16px;
   position: relative;
-  transition: background-color 03s ease;
+  transition:  03s ease;
   width: 100%;
 }
 
 .artist-card:hover {
-  background-color: #252525;
+  background-color: #b490ca;
 }
 
 .card-img {
@@ -296,7 +303,7 @@
   position: absolute;
   top: 0;
   width: 100%;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .card-text {
@@ -324,7 +331,7 @@
 }
 
 .artist-categorie {
-  color: #a18cd1;
+  color: #faf9f6;
   font-weight: 400;
   font-size: 0.875rem;
 }
@@ -338,11 +345,12 @@
   right: 10px;
   top: 120px;
   padding: 18px;
-  background-color: #1db954;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   border-radius: 100%;
   font-size: 14px;
   opacity: 0;
   transition: all ease 0.4s;
+  color:#faf9f6;
 }
 
 .artist-card:hover .play .fa-play {
